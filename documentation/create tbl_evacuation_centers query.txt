@@ -1,0 +1,11 @@
+CREATE TABLE tbl_evacuation_centers (
+	id serial PRIMARY KEY,
+	evac_building_name VARCHAR ( 50 ),
+	evac_address text,
+	evac_lat text,
+	evac_long text,
+    capacity text,
+	max_capacity text,
+	evac_status integer,
+	evac_image_path text
+);
